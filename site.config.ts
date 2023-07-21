@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Victor del Valle',
-  domain: 'delnido.es',
-  author: 'Victor del Valle',
+  name: 'Frelance desarrollador de software en Barcelona',
+  domain: 'victordel.com',
+  author: 'Victor',
 
   // open graph metadata (optional)
-  description: 'Porfolio Victor del Valle. Software Engineer',
+  description: 'Freelance Desarrollador de software en Barcelona. Desarrollo de páginas web y aplicaciones móviles. Desarrollador Symfony, React, Next, Flutter',
 
   // social usernames (optional)
   // twitter: '',
@@ -42,24 +42,23 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+  pageUrlOverrides: {
+    '/contacto': '1de97bc744fc4e2d8912c7909827a813',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Contacta',
+      pageId: '1de97bc744fc4e2d8912c7909827a813'
+    },
   //   {
   //     title: 'Contact',
   //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
   //   }
-  // ]
+  ]
 })
