@@ -26,6 +26,7 @@ import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
+import Head from "next/head";
 
 // -----------------------------------------------------------------------------
 // dynamic imports for optional components
@@ -279,6 +280,15 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
+
+      {pageId === '1de97bc744fc4e2d8912c7909827a813' && (
+        <>
+          <div className="calendly-inline-widget" data-url="https://calendly.com/victor_veeb" style={{minWidth: '320px', height: '700px'}}></div>
+          <Head>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          </Head>
+        </>
+      )}
 
     </>
   )
