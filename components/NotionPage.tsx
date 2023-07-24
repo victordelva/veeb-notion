@@ -27,6 +27,7 @@ import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
 import Head from "next/head";
+import Script from "next/script";
 
 // -----------------------------------------------------------------------------
 // dynamic imports for optional components
@@ -280,16 +281,20 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
       {pageId === '1de97bc744fc4e2d8912c7909827a813' && (
         <>
           <div className="calendly-inline-widget" data-url="https://calendly.com/victor_veeb" style={{minWidth: '320px', height: '700px'}}></div>
           <Head>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <Link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+            <Script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></Script>
+            <Script type="text/javascript" strategy="afterInteractive">
+              {`
+                window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/victor_veeb', text: 'Reserva una llamada', color: '#67a0f2', textColor: '#ffffff', branding: true }); }
+              `}
+            </Script>
           </Head>
         </>
       )}
-
     </>
   )
 }
