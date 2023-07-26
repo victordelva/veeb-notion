@@ -44,7 +44,7 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/contacto': '1de97bc744fc4e2d8912c7909827a813',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+    '/blog': '870807b72454446d9580afedb999b152'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -56,9 +56,9 @@ export default siteConfig({
       title: 'Contacta',
       pageId: '1de97bc744fc4e2d8912c7909827a813'
     },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
+    {
+      title: 'Blog',
+      pageId: '870807b72454446d9580afedb999b152'
+    },
   ]
 })
