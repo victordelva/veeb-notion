@@ -15,7 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description: 'Freelance Desarrollador de software en Barcelona. Desarrollo de páginas web y aplicaciones móviles. Desarrollador Symfony, React, Next, Flutter',
-
+  language: 'es',
   // social usernames (optional)
   // twitter: '',
   // github: 'transitive-bullshit',
