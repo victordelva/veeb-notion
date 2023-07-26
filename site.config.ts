@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Freelance desarrollador de software en Barcelona',
+  name: 'Freelance desarrollador de software en Barcelona. PHP, Symfony, Wordpress, React, NextJs, Flutter',
   domain: 'victordel.com',
   author: 'Victor',
 
