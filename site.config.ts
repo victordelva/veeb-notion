@@ -44,7 +44,7 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/contacto': '1de97bc744fc4e2d8912c7909827a813',
-    '/blog': '870807b72454446d9580afedb999b152'
+    '/blog': '316aca82457142768e83ec0f985c4a4d'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -58,7 +58,7 @@ export default siteConfig({
     },
     {
       title: 'Blog',
-      pageId: '870807b72454446d9580afedb999b152'
+      pageId: '316aca82457142768e83ec0f985c4a4d'
     },
   ]
 })
