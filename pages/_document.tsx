@@ -65,6 +65,12 @@ export default class MyDocument extends Document {
 `
               }}
             />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                window.$crisp=[];window.CRISP_WEBSITE_ID="dafb03d0-b1b7-4fc9-9cc2-54a7e5991856";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+                `}}
+            />
             <Main />
 
             <NextScript />
