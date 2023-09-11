@@ -9,17 +9,17 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Freelance desarrollador de software en Barcelona. PHP, Symfony, Wordpress, React, NextJs, Flutter',
-  domain: 'victordel.com',
-  author: 'Victor',
+  name: 'Veeb Services. Software engineering and developing web services for your business.',
+  domain: 'veeb.services',
+  author: 'veeb services OÜ',
 
   // open graph metadata (optional)
-  description: 'Freelance Desarrollador de software en Barcelona. Desarrollo de páginas web y aplicaciones móviles. Desarrollador Symfony, React, Next, Flutter',
-  language: 'es',
+  description: 'Veeb Services. Software engineering and developing web services for your business',
+  language: 'en',
   // social usernames (optional)
   // twitter: '',
   // github: 'transitive-bullshit',
-  linkedin: 'vicalle',
+  // linkedin: 'vicalle',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -44,7 +44,6 @@ export default siteConfig({
   //
   pageUrlOverrides: {
     '/contacto': '1de97bc744fc4e2d8912c7909827a813',
-    '/blog': '316aca82457142768e83ec0f985c4a4d'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -55,10 +54,6 @@ export default siteConfig({
     {
       title: 'Contacta',
       pageId: '1de97bc744fc4e2d8912c7909827a813'
-    },
-    {
-      title: 'Blog',
-      pageId: '316aca82457142768e83ec0f985c4a4d'
     },
   ]
 })
