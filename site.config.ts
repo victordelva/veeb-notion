@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Veeb Services. Software engineering and developing web services for your business.',
-  domain: 'veeb.services',
-  author: 'veeb services OÜ',
+  name: 'Blexity - Software engineering and developing web services for your business.',
+  domain: 'blexity.com',
+  author: 'blexity OÜ',
 
   // open graph metadata (optional)
-  description: 'Veeb Services. Software engineering and developing web services for your business',
+  description: 'Blexity. Software engineering and developing web services for your business',
   language: 'en',
   // social usernames (optional)
   // twitter: '',
