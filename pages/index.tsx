@@ -2,7 +2,7 @@ import * as React from 'react'
 
 import {PageHead} from "@/components/PageHead";
 
-export default function Home(props) {
+export default function Home() {
   return <div className='home-wrapper'>
     <PageHead
       title={'blexity'}
